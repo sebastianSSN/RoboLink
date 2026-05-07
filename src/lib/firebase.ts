@@ -20,13 +20,6 @@ import {
 } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDiniuyMNfljGC07IcINHa4xIPvsLODJAE",
-  authDomain: "robolink-app.firebaseapp.com",
-  projectId: "robolink-app",
-  storageBucket: "robolink-app.firebasestorage.app",
-  messagingSenderId: "974896715451",
-  appId: "1:974896715451:web:8e75380fbd74a89f797b9e",
-  measurementId: "G-B7T03C7BZK"
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
